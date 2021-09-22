@@ -1,0 +1,17 @@
+{
+  "name": "@francesco-lbn/root",
+  "private": true,
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna exec --scope @francesco-lbn/app -- yarn start"
+  },
+  "packageManager": "yarn@3.0.2",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
